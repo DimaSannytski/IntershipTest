@@ -26,6 +26,12 @@ public class Student {
 	public University getUniversity() {
 		return university;
 	}
+	
+	public Student(String name, Knowledge knowledge) {
+		
+		this.name = name;
+		this.knowledge = knowledge;
+	}
 	public void setUniversity(University university) {
 		this.university = university;
 	}
