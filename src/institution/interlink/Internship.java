@@ -23,6 +23,18 @@ public class Internship {
 		return studentsInter;
 	}
 
+	public void setStudentsInter(List<Student> studentsInter) {
+		this.studentsInter = studentsInter;
+	}
+
+	public String getStringStudents() {
+		String stName="";
+		for (Student student : studentsInter) {
+			stName+=student.getName()+"\n";
+		}
+		return stName;
+	}
+
 	public void setStudents(List<Student> students) {
 		List<Student> studentForInter = new ArrayList<Student>();
 		for (Student student : students) {

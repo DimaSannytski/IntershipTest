@@ -36,12 +36,7 @@ public class Student {
 	}
 	public Student() {}
 	
-	@Override
-	public String toString() {
 
-		return "" + name + "";
-
-	}
 	
     
 }
