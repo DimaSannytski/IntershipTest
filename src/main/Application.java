@@ -3,14 +3,13 @@ package main;
 import institution.University;
 import institution.interlink.Internship;
 import person.Student;
-import person.consciousness.Knowledge;
 
 public class Application {
     public static void main(String[] args) {
         University university = new University("CH.U.I.");
-        university.addStudent(new Student("Andrew Kostenko", new Knowledge(88)));
-        university.addStudent(new Student("Julia Veselkina", new Knowledge(74)));
-        university.addStudent(new Student("Maria Perechrest",new Knowledge(51)));
+        university.addStudent(new Student("Andrew Kostenko", 88));
+        university.addStudent(new Student("Julia Veselkina", 74));
+        university.addStudent(new Student("Maria Perechrest",51));
         university.setAverageKnowledge();
 
         

@@ -29,10 +29,10 @@ public class Student {
 	public void setUniversity(University university) {
 		this.university = university;
 	}
-	public Student(String name, Knowledge knowledge) {
+	public Student(String name, int knowledge) {
 		
 		this.name = name;
-		this.knowledge = knowledge;
+		this.knowledge = new Knowledge(knowledge);
 	}
 	public Student() {}
 	
